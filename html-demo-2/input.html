@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="username" />
+    <input type="password" />
+    <hr />
+    <input type="button" />
+    <hr />
+    <input type="color" />
+    <hr />
+    爱好有：
+    <br />
+    <input type="checkbox" name="hobby" /> 唱
+    <input type="checkbox" name="hobby" /> 跳
+    <input type="checkbox" name="hobby" /> rap
+    <input type="checkbox" name="hobby" /> 篮球
+    <hr />
+    <input type="radio" name="gender" /> 男
+    <input type="radio" name="gender" /> 女
+    <hr />
+    <input type="file" />
+    <hr />
+    看不见我!
+    <input type="hidden" />
+    <hr />
+    <textarea style="resize: none; width: 100; height: 100"></textarea>
+    <hr />
+    <select id="xxx">
+      <option value="">-请选择-</option>
+      <option value="1">星期一</option>
+      <option value="2">星期二</option>
+      <option value="3">星期三</option>
+      <option value="4">星期四</option>
+      <option value="5">星期五</option>
+      <option value="6">星期六</option>
+      <option value="7">星期七</option>
+    </select>
+    <script>
+      xxx.onchange = function () {
+        console.log("选择改变");
+      };
+      xxx.onfocus = function () {
+        console.log("开始选择");
+      };
+      xxx.onblur = function () {
+        console.log("退出选择");
+      };
+    </script>
+  </body>
+</html>
